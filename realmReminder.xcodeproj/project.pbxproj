@@ -61,6 +61,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		BF67B4762752B489000CCF93 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BF67B4742752AF78000CCF93 /* Cat.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		BF75EB6D2752A85400300D83 = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +90,7 @@
 		BF75EB782752A85500300D83 /* realmReminder */ = {
 			isa = PBXGroup;
 			children = (
+				BF67B4762752B489000CCF93 /* Model */,
 				BF75EB792752A85500300D83 /* AppDelegate.swift */,
 				BF75EB7B2752A85500300D83 /* SceneDelegate.swift */,
 				BF75EB7D2752A85500300D83 /* ViewController.swift */,
@@ -89,7 +98,6 @@
 				BF75EB822752A86600300D83 /* Assets.xcassets */,
 				BF75EB842752A86600300D83 /* LaunchScreen.storyboard */,
 				BF75EB872752A86600300D83 /* Info.plist */,
-				BF67B4742752AF78000CCF93 /* Cat.swift */,
 			);
 			path = realmReminder;
 			sourceTree = "<group>";

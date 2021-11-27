@@ -34,6 +34,9 @@ class ViewController: UIViewController {
         for cat in 0...2 {
             print(reuslts[cat].name ?? "", reuslts[cat].color ?? "", reuslts[cat].gender ?? "")
         }
+        
+        let filteredResult = realm.objects(Cat.self).filter("color = 'Black'")
+        print(filteredResult.count)
     }
 
 
